@@ -16,8 +16,8 @@ API_ID = config("API_ID", default=None, cast=int", "28096663")
 API_HASH = config("API_HASH", default=None", "72e4696f130646a04ab8b7e3fc2ee3d4")
 BOT_TOKEN = config("BOT_TOKEN", default=None", "6519154950:AAHYlggWrrYUmoQjyBW2BsjoiJhjIbYpyW4")
 SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None, cast=int)
+FORCESUB = config("FORCESUB", default=None", "Extractor767_bot")
+AUTH = config("AUTH", default=None, cast=int", "@stcsto")
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
